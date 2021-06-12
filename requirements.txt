@@ -1,9 +1,9 @@
 # those requirements are only for separating tracks with pre-trained model.
 # If you require training or model evaluation, please look at the conda environment
 # files, environmnent-cpu.yml and environment-cuda.yml
-diffq>=0.1
+diffq>=0.1.1
 lameenc>=1.3.1
 julius>=0.2.3
 torch>=1.8.1
-torchaudio>=0.8
-tqdm
+torchaudio>=0.8.1
+tqdm>=4.61.0
